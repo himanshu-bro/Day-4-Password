@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color:rgb(59, 59, 200);
+}
+
+.container{
+    background: #fff;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 300px auto;
+    display: flex;
+    align-items: center;
+}
+
+.container input{
+    width: 100%;
+    padding: 10px ;
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    color: #555;
+}
+
+.container img{
+    cursor: pointer;
+    width: 35px;
+
+}
+
+h1{
+    text-align: center;
+    margin: 30px auto;
+    top: 200px;
+    position: relative;
+    color: white;
+}

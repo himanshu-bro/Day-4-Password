@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>This place is for writing password 😎</h1>
+    <div class="container">
+        <input type="password" id="password">
+        <img src="eye-close.png" id="eyeicon">
+
+    </div>
+    <script>
+        let eyeicon = document.getElementById("eyeicon");
+        let password = document.getElementById("password");
+
+        eyeicon.addEventListener("click", function(){
+            if(eyeicon.src.match("eye-close.png")){
+                eyeicon.src = "eye-open.png";
+                password.type = "text";
+                }else{
+                    eyeicon.src = "eye-close.png";
+                    password.type = "password";
+                    }
+        });
+    </script>
+
+</body>
+</html>
